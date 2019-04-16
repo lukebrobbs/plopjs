@@ -7,10 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "plop": "plop"
   },
-  "keywords": [],
-  "author": "",
+  "bin": {
+    "plop": "plop"
+  },
+  "keywords": [
+    "plop",
+    "template"
+  ],
+  "author": "Luke Brobbin",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "plop": "^2.3.0"
   }
 }
